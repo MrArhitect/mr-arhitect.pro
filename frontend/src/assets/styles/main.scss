@@ -1,0 +1,17 @@
+@use "scss-reset";
+@use "fonts";
+@use "variables" as *;
+@use "mixins" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $text_color;
+  font-display: swap;
+  font-family: "Tektur";
+  font-weight: 400;
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
